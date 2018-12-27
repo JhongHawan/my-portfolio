@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# my-portfolio
-My portfolio website showcasing some of my work from school and side projects.
-=======
-# My Portfolio 
+# My Portfolio
 
 ## SUMMARY
 My web portfolio showcasing some of the work I have done both in school and on my own time. There is a mix of both user research, web design, and software/web development. The idea is to share my working process for each of the projects and to present the final outcomes.
@@ -10,7 +6,7 @@ My web portfolio showcasing some of the work I have done both in school and on m
 This project was a challenge for me because I wanted to build it from scratch and used basic html, css, and javascript to get started. Reactive websites are popular in todays industry but I believe it is still important to know the fundamentals and creating my portfolio was a great way to test my own fundamental web development skills.
 
 ## Technologies Used
-  
+
 These are the coding technologies I used in this project.
 
   * UI/UX Design
@@ -22,6 +18,5 @@ These are the coding technologies I used in this project.
   * JavaScript
 
 ## Resources
-  
+
   * This project is live here: [brianjhong.icu](https://brianjhong.icu)
->>>>>>> db435975c07a4761dd5e1d4b39f80aa019b18777
