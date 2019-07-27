@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
   Style sheet for my custom hamburger menu
 */
@@ -61,3 +62,68 @@ nav {
   width: 0%;
   transform: translate3d(-30px, 0px, 0px);
 }
+=======
+/*
+  Style sheet for my custom hamburger menu
+*/
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggle {
+  position: absolute;
+  top: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.toggle span {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background: red;
+  box-shadow: 0px 1px 4px -.5px black;
+  border-radius: 2px;
+  display: block;
+  margin-bottom: 5px;
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .35s ease-in-out;
+}
+
+.toggle span:nth-child(1) {
+  transform-origin: left;
+}
+
+.toggle span:nth-child(2) {
+  transform-origin: center;
+}
+
+.toggle span:nth-child(3) {
+  transform-origin: right;
+}
+
+.toggle.active span:nth-child(1) {
+  left: 2px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.toggle.active span:nth-child(2) {
+  right: 2px;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+.toggle.active span:nth-child(3) {
+  opacity: 0;
+  width: 0%;
+  transform: translate3d(-30px, 0px, 0px);
+}
+>>>>>>> a5efe621dbe0a32f6a4f431cbd411a93e64d6b68
